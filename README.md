@@ -6,3 +6,9 @@
 jetpack을 활용하여 제작
 
 RoomDB, NavGraph, DataBinding을 사용한다 
+
+
+참고한 자료 
+
+
+RoomDB 공식 예제 : https://github.com/googlesamples/android-sunflower
