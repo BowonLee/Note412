@@ -1,4 +1,4 @@
-package bowon.lee.Note412
+package bowon.lee.note412
 
 import androidx.test.InstrumentationRegistry
 import androidx.test.runner.AndroidJUnit4
