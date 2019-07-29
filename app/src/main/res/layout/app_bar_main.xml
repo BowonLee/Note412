@@ -7,7 +7,7 @@
     <androidx.coordinatorlayout.widget.CoordinatorLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:context=".view.MainActivity">
+            tools:context=".view.main_note.MainActivity">
 
         <com.google.android.material.appbar.AppBarLayout
                 android:layout_height="wrap_content"

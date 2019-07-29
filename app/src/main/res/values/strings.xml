@@ -10,4 +10,7 @@
 
     <string name="write_memo_title">TITLE</string>
     <string name="write_memo_content">CONTENT</string>
+    <string name="main_title_all">ALL Note</string>
+    <string name="main_title_private">Private Note</string>
+
 </resources>
