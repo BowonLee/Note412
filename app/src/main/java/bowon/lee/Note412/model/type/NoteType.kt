@@ -1,5 +1,7 @@
 package bowon.lee.note412.model.type
 
+import androidx.room.TypeConverter
+
 /**
  * 메모의 종류
  *
@@ -9,10 +11,27 @@ package bowon.lee.note412.model.type
  * */
 enum class NoteType(
     //기본값은 일반 타입으로 지정
-    val nomal: Int = 0
+    val value: Int = 0
 ){
 
     NORMAL(0),
 
-    PRIVATE(1)
+    PRIVATE(1);
+
+    fun getInt() : Int{
+        return value
+    }
+
+}
+
+class NoteTypeConverter(){
+    @TypeConverter
+    fun typeToInt(type:NoteType):Int{
+        return type.getInt()
+    }
+    @TypeConverter
+    fun intToType(int: Int) : NoteType{
+        return NoteType.valueOf(int.toString())
+    }
+
 }
